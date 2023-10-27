@@ -1,0 +1,244 @@
+@import url("https://fonts.cdnfonts.com/css/panthera");
+@import url(https://db.onlinewebfonts.com/c/9d321e63e55e0cc4622852096e2fac4a?family=BEYNO);
+@import url("https://fonts.googleapis.com/css2?family=Cantarell:ital@0;1&display=swap");
+:root {
+  --pink-light: #f2cef2;
+  --grey-light: #9e91b7;
+  --pink-dark: #df99f2;
+  --blue-one: #3d2da6;
+  --blue-two: #07338c;
+  --blue-three: #021740;
+}
+.main-page {
+  background-image: url(../illustrationLog/Allpages/arrière_plan.png);
+}
+#Navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+#Navbar .left-logo img {
+  padding: 5px;
+}
+#Navbar .right-link a {
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  font-family: "BEYNO";
+  font-size: 17px;
+}
+.section1 {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 150px;
+}
+
+.section1 .left-desc {
+  width: 50%;
+  padding: 70px;
+  color: white;
+}
+.section1 .left-desc .titre {
+  font-family: "Panthera", sans-serif;
+  color: var(--pink-light);
+  font-size: 50px;
+}
+.section1 .left-desc h2 {
+  font-family: "BEYNO";
+  font-size: 32px;
+  color: var(--pink-light);
+}
+.section1 .left-desc p {
+  font-family: "Cantarell", sans-serif;
+  font-size: 14px;
+}
+.section1 .left-desc a {
+  font-family: "Cantarell", sans-serif;
+}
+.cards {
+  display: flex;
+  background-color: #021740;
+  padding: 10px;
+}
+.cards .desc h2 {
+  font-family: "BEYNO";
+  font-size: 20px;
+}
+.cards .desc p,
+a {
+  font-family: "Cantarell", sans-serif;
+  font-size: 14px;
+}
+.cards img {
+  margin: 20px;
+}
+.desc {
+  display: flex;
+  flex-direction: column;
+}
+.desc h2 {
+  color: var(--pink-light);
+}
+.desc p,
+a {
+  color: white;
+}
+#section3 {
+  display: flex;
+
+  justify-content: space-between;
+  margin-top: 200px;
+}
+#section3 .text-desc {
+  color: white;
+  width: 40%;
+  margin: 50px;
+}
+#section3 .text-desc h2 {
+  font-family: "BEYNO";
+  font-size: 20px;
+  color: var(--pink-light);
+}
+#section3 .text-desc p {
+  font-family: "Cantarell", sans-serif;
+  font-size: 14px;
+}
+#section3 .cv {
+  background-color: azure;
+  padding: 30px;
+  height: 750px;
+  margin: 50px;
+}
+#section3 .cv img {
+  margin-top: -100px;
+}
+#section3 .cv button {
+  background-color: var(--blue-two);
+  color: white;
+}
+
+.hero {
+  display: flex;
+
+  justify-content: space-around;
+}
+.hero .justifier {
+  color: white;
+  width: 40%;
+}
+.hero .justifier h2 {
+  font-family: "BEYNO";
+  font-size: 20px;
+  color: var(--pink-light);
+}
+.hero .justifier p {
+  font-family: "Cantarell", sans-serif;
+  font-size: 14px;
+}
+#contacts {
+  background-image: url(../illustrationLog/Accueil/Pantherhome7.png);
+  width: 100%;
+  height: 1000px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#contacts .contact {
+  background-color: rgba(255, 255, 255, 0.688);
+  opacity: 40%;
+  width: 60%;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-top-left-radius: 20%;
+  border-top-right-radius: 20%;
+  border-bottom-left-radius: 20%;
+  border-bottom-right-radius: 20%;
+}
+/* deign footer */
+#container {
+  padding-left: 100px;
+  display: flex;
+  background-image: url(../illustrationLog/Allpages/back_footer.png);
+}
+#container .section3 {
+  display: flex;
+}
+#container .section3 .pages {
+  margin: 20px;
+  padding: 10px;
+  color: white;
+}
+#container .section3 .pages .title {
+  margin: 20px;
+}
+ul {
+  list-style: none;
+}
+li {
+  margin: 20px;
+}
+#container .section3 .logo {
+  margin: 20px;
+  padding: 10px;
+  color: white;
+}
+#container .section3 .logo .title {
+  margin: 20px;
+}
+#container .section3 .logo .social {
+  margin: 20px;
+}
+#container .section3 .logo p {
+  padding-top: 50px;
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  background-color: transparent;
+  padding-left: 100px;
+}
+.contact p {
+  margin: 20px;
+}
+.contact button {
+  margin-top: 30px;
+  margin-bottom: 50px;
+  width: 174px;
+  height: 40px;
+  background-color: var(--pink-light);
+  border-radius: 38px;
+}
+.contact input {
+  width: 520px;
+  height: 30px;
+  padding: 10px;
+  border-radius: 38px;
+  margin: 10px;
+}
+.button {
+  text-align: center;
+}
+textarea {
+  width: 520px;
+  padding: 10px;
+  border-top-left-radius: 10%;
+  border-top-right-radius: 10%;
+  border-bottom-left-radius: 10%;
+  border-bottom-right-radius: 10%;
+}
+.cards .image1 {
+  margin-top: -100px;
+}
+span {
+  font-weight: bold;
+}
